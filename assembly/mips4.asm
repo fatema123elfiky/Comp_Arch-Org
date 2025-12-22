@@ -1,3 +1,4 @@
+########## How to loop Using labels ##############
 .data
 	sum: .word 0
 	i: .half 0

@@ -1,3 +1,4 @@
+######### Taking inputs using system calls ##########
 .data 
 	input : .word
 	float : .float

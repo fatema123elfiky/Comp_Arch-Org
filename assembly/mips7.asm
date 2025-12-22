@@ -1,3 +1,4 @@
+####### Quiz question ############
 .data
 array:  .word 1, 2, 3, 4, 5, 6
 size:   .word 6
@@ -10,7 +11,7 @@ main:
     la   $t0, array
     lw   $t2, size
 
-    #addi $t2, $t2, -1      # size - 1
+    addi $t2, $t2, -1      # size - 1
     mul  $t3, $t2, 4
     add  $t1, $t0, $t3
 

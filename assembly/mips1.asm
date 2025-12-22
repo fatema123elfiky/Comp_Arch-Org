@@ -1,3 +1,6 @@
+################# intro1 ################
+
+
 ######## data section #######
 .data
  message:.asciiz "Hello,Mips\n"
